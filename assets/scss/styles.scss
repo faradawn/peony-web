@@ -14,6 +14,7 @@
     /*===== Font and typography =====*/
     --body-font: 'Poppins', sans-serif;
     --big-font-size: 2.5rem;
+    --md-font-size: 2.2rem;
     --normal-font-size: .938rem;
   
     /*===== z index =====*/
@@ -56,6 +57,10 @@ a{
 img{
     max-width: 100%;
     height: auto;
+}
+
+hr.solid {
+    border-top: 50px dashed white;
 }
 
 /*===== LAYOUT =====*/
@@ -158,6 +163,21 @@ img{
         line-height: 1.3;
         margin-bottom: 1rem;
     }
+
+    &mdtextbox{
+        max-width: 500px;
+    }
+
+    &__mdtitle{
+        font-size: var(--md-font-size);
+        line-height: 1.3;
+        margin-bottom: 1rem;
+    }
+
+    &__mddescription{
+        margin-bottom: 2.5rem;
+    }
+
     &__description{
         margin-bottom: 2.5rem;
     }
@@ -174,6 +194,7 @@ img{
         }
     }
 }
+
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and(min-width: 768px){
