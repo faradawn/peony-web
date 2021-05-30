@@ -1,2 +1,4 @@
-# Website for Peony Fairy
-Created since 5/30/2021
+# Welcome to Hua Yuan Bao Bao!
+
+![web landing page](./assets/img/screenshot.png)
+
